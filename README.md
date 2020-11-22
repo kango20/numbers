@@ -1,8 +1,8 @@
 ## Identifying Information: 
-1. Name: 
-2. Student ID: 
-3. Email: 
-4. Class: 
+1. Name: Karen Ngo
+2. Student ID: 2370724
+3. Email: kango@chapman.edu
+4. Class: CPSC298-01
 5. Assignment: numbers 
 
 ## Application Purpose
