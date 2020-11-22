@@ -13,7 +13,7 @@ do
 done
 
 N=1
-while [ $N -le $NUMBERS ]
+while [ $N -le "$NUMBERS" ]
 do 
 	if [ $((N%2)) -eq 0 ]
 	then
@@ -23,6 +23,6 @@ do
 	then
 		echo $N "ODD"
 	fi
-	N=$[$N+1]
+	N=$((N+1))
 done
 echo "Thank you"
