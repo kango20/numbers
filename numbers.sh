@@ -2,12 +2,12 @@
 #numbers.sh
 #Karen Ngo
 
-echo -n "Enter a number: "
+echo -n "Enter a positive number: "
 
 read NUMBERS
 while echo "$NUMBERS" | egrep -v "^[0-9]+" >/dev/null 2>&1
 do
-	echo "You must enter a number"
+	echo "You must enter a positive number"
 	echo "Enter a number: "
 	read NUMBERS
 done
